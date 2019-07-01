@@ -7,6 +7,6 @@ public class Calculator {
 
 	@GET
 	public String sayWelcome() {
-		return "Welcome to calculator";
+		return "<h1>Welcome to calculator</h1>";
 	}
 }
