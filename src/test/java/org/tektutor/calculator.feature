@@ -1,6 +1,6 @@
-Feature: Calculator
-	Scenario: Addition function
+Feature: Addition
+	Scenario: Add two integers
 		Given Two numbers in JSON format string
-		When i click add
-		Then sum of two numbers should be shown 
+		When user calls API
+		Then sum of two numbers should be return as string response 
 		
