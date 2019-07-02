@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 
 public class AdditionTest {
 	Calculator calculator = new Calculator();
-	String input = "{\"number_one\":20,\"number_two\":10}";
+	String input = "{\"number_one\":10,\"number_two\":5}";
 	String output = "<h1>Sum of 10 and 5 is 15</h1>";
 
 	
